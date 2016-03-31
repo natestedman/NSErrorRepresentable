@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431D7F981CAC92D000766516 /* NSErrorRepresentable.h in Headers */ = {isa = PBXBuildFile; fileRef = 431D7F971CAC92D000766516 /* NSErrorRepresentable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		431D7FAC1CAC93A600766516 /* NSErrorRepresentable.h in Headers */ = {isa = PBXBuildFile; fileRef = 431D7F971CAC92D000766516 /* NSErrorRepresentable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		431D7F941CAC92D000766516 /* NSErrorRepresentable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSErrorRepresentable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431D7F971CAC92D000766516 /* NSErrorRepresentable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSErrorRepresentable.h; sourceTree = "<group>"; };
+		431D7F991CAC92D000766516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431D7FA41CAC937E00766516 /* NSErrorRepresentable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSErrorRepresentable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		431D7F901CAC92D000766516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431D7FA01CAC937E00766516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431D7F8A1CAC92D000766516 = {
+			isa = PBXGroup;
+			children = (
+				431D7F961CAC92D000766516 /* NSErrorRepresentable */,
+				431D7F951CAC92D000766516 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		431D7F951CAC92D000766516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431D7F941CAC92D000766516 /* NSErrorRepresentable.framework */,
+				431D7FA41CAC937E00766516 /* NSErrorRepresentable.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		431D7F961CAC92D000766516 /* NSErrorRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				431D7F971CAC92D000766516 /* NSErrorRepresentable.h */,
+				431D7F991CAC92D000766516 /* Info.plist */,
+			);
+			path = NSErrorRepresentable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		431D7F911CAC92D000766516 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431D7F981CAC92D000766516 /* NSErrorRepresentable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431D7FA11CAC937E00766516 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431D7FAC1CAC93A600766516 /* NSErrorRepresentable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		431D7F931CAC92D000766516 /* NSErrorRepresentable-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431D7F9C1CAC92D000766516 /* Build configuration list for PBXNativeTarget "NSErrorRepresentable-OSX" */;
+			buildPhases = (
+				431D7F8F1CAC92D000766516 /* Sources */,
+				431D7F901CAC92D000766516 /* Frameworks */,
+				431D7F911CAC92D000766516 /* Headers */,
+				431D7F921CAC92D000766516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSErrorRepresentable-OSX";
+			productName = NSErrorRepresentable;
+			productReference = 431D7F941CAC92D000766516 /* NSErrorRepresentable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		431D7FA31CAC937E00766516 /* NSErrorRepresentable-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431D7FA91CAC937E00766516 /* Build configuration list for PBXNativeTarget "NSErrorRepresentable-iOS" */;
+			buildPhases = (
+				431D7F9F1CAC937E00766516 /* Sources */,
+				431D7FA01CAC937E00766516 /* Frameworks */,
+				431D7FA11CAC937E00766516 /* Headers */,
+				431D7FA21CAC937E00766516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSErrorRepresentable-iOS";
+			productName = NSErrorRepresentable;
+			productReference = 431D7FA41CAC937E00766516 /* NSErrorRepresentable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		431D7F8B1CAC92D000766516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nate Stedman";
+				TargetAttributes = {
+					431D7F931CAC92D000766516 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					431D7FA31CAC937E00766516 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 431D7F8E1CAC92D000766516 /* Build configuration list for PBXProject "NSErrorRepresentable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 431D7F8A1CAC92D000766516;
+			productRefGroup = 431D7F951CAC92D000766516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				431D7F931CAC92D000766516 /* NSErrorRepresentable-OSX */,
+				431D7FA31CAC937E00766516 /* NSErrorRepresentable-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		431D7F921CAC92D000766516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431D7FA21CAC937E00766516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431D7F8F1CAC92D000766516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431D7F9F1CAC937E00766516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		431D7F9A1CAC92D000766516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		431D7F9B1CAC92D000766516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431D7F9D1CAC92D000766516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NSErrorRepresentable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natestedman.NSErrorRepresentable;
+				PRODUCT_NAME = NSErrorRepresentable;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		431D7F9E1CAC92D000766516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NSErrorRepresentable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natestedman.NSErrorRepresentable;
+				PRODUCT_NAME = NSErrorRepresentable;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		431D7FAA1CAC937E00766516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NSErrorRepresentable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natestedman.NSErrorRepresentable;
+				PRODUCT_NAME = NSErrorRepresentable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		431D7FAB1CAC937E00766516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NSErrorRepresentable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natestedman.NSErrorRepresentable;
+				PRODUCT_NAME = NSErrorRepresentable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		431D7F8E1CAC92D000766516 /* Build configuration list for PBXProject "NSErrorRepresentable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431D7F9A1CAC92D000766516 /* Debug */,
+				431D7F9B1CAC92D000766516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431D7F9C1CAC92D000766516 /* Build configuration list for PBXNativeTarget "NSErrorRepresentable-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431D7F9D1CAC92D000766516 /* Debug */,
+				431D7F9E1CAC92D000766516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		431D7FA91CAC937E00766516 /* Build configuration list for PBXNativeTarget "NSErrorRepresentable-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431D7FAA1CAC937E00766516 /* Debug */,
+				431D7FAB1CAC937E00766516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 431D7F8B1CAC92D000766516 /* Project object */;
+}

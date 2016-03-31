@@ -1,0 +1,10 @@
+language: objective-c
+xcode_project: NSErrorRepresentable.xcodeproj
+xcode_scheme: NSErrorRepresentable
+osx_image: xcode7.3
+before_install: true
+install: true
+git:
+  submodules: false
+script:
+  - xcodebuild -project NSErrorRepresentable.xcodeproj -scheme NSErrorRepresentable-OSX clean build

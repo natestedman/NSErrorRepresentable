@@ -15,6 +15,8 @@ import Foundation
 /// A protocol for types that can be represented as an `NSError` object.
 public protocol NSErrorRepresentable
 {
+    // MARK: - Components
+
     /// The error domain.
     var domain: String { get }
 
@@ -34,6 +36,8 @@ extension NSErrorRepresentable
 
 extension NSErrorRepresentable
 {
+    // MARK: - Error
+
     /// Returns an `NSError` representation of the receiver.
     public var NSError: Foundation.NSError
     {

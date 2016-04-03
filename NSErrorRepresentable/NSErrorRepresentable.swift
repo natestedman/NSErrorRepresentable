@@ -44,3 +44,11 @@ extension NSErrorRepresentable
         return Foundation.NSError(domain: domain, code: code, userInfo: userInfo)
     }
 }
+
+extension NSErrorRepresentable where Self:RawRepresentable, Self.RawValue == Int
+{
+    // MARK: - Raw Representable
+
+    /// A default implementation of `code` that returns `rawValue`.
+    public var code: Int { return rawValue }
+}

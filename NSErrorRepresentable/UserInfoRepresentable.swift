@@ -11,6 +11,10 @@
 import Foundation
 
 // MARK: - User Info Representable
+
+/// A protocol for types that can be represented as a user info value.
+///
+/// All properties of this protocol have default implementations, which return empty values.
 public protocol UserInfoRepresentable
 {
     // MARK: - Text Content

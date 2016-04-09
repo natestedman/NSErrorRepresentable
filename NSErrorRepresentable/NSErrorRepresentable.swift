@@ -18,7 +18,7 @@ public protocol NSErrorRepresentable
     // MARK: - Components
 
     /// The error domain.
-    var domain: String { get }
+    static var domain: String { get }
 
     /// The error code.
     var code: Int { get }
@@ -41,7 +41,7 @@ extension NSErrorRepresentable
     /// Returns an `NSError` representation of the receiver.
     public var NSError: Foundation.NSError
     {
-        return Foundation.NSError(domain: domain, code: code, userInfo: userInfo)
+        return Foundation.NSError(domain: Self.domain, code: code, userInfo: userInfo)
     }
 }
 

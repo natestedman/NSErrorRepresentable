@@ -24,13 +24,12 @@ public protocol NSErrorRepresentable
     var code: Int { get }
 
     /// The error's user info, if any.
-    ///
-    /// This property's default implementation returns `nil`.
     var userInfo: [String:AnyObject]? { get }
 }
 
 extension NSErrorRepresentable
 {
+    /// This property's default implementation returns `nil`.
     public var userInfo: [String:AnyObject]? { return nil }
 }
 

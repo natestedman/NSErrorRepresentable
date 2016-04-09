@@ -20,30 +20,20 @@ public protocol UserInfoRepresentable
     // MARK: - Text Content
 
     /// A value for `NSLocalizedDescriptionKey`.
-    ///
-    /// This property's default implementation returns `nil`.
     var localizedDescription: String? { get }
 
     /// A value for `NSLocalizedRecoveryOptionsErrorKey`.
-    ///
-    /// This property's default implementation returns `nil`.
     var localizedRecoveryOptions: [String]? { get }
 
     /// A value for `NSLocalizedRecoverySuggestionErrorKey`.
-    ///
-    /// This property's default implementation returns `nil`.
     var localizedRecoverySuggestion: String? { get }
 
     /// A value for `NSLocalizedFailureReasonErrorKey`.
-    ///
-    /// This property's default implementation returns `nil`.
     var localizedFailureReason: String? { get }
 
     // MARK: - Underlying Error
 
     /// A value for `NSUnderlyingErrorKey`.
-    ///
-    /// This property's default implementation returns `nil`.
     var underlyingError: NSError? { get }
 
     // MARK: - Additional User Info Values
@@ -51,28 +41,39 @@ public protocol UserInfoRepresentable
     /// Additional user info keys and values to apply.
     ///
     /// These are applied after the built-in properties, so any repeated keys will be overridden.
-    ///
-    /// This property's default implementation returns an empty dictionary.
     var additionalUserInfoValues: [String:AnyObject] { get }
 }
 
 extension UserInfoRepresentable
 {
     // MARK: - Text Content
+
+    /// This property's default implementation returns `nil`.
     public var localizedDescription: String? { return nil }
+
+    /// This property's default implementation returns `nil`.
     public var localizedRecoveryOptions: [String]? { return nil }
+
+    /// This property's default implementation returns `nil`.
     public var localizedRecoverySuggestion: String? { return nil }
+
+    /// This property's default implementation returns `nil`.
     public var localizedFailureReason: String? { return nil }
 
     // MARK: - Underlying Error
+
+    /// This property's default implementation returns `nil`.
     public var underlyingError: NSError? { return nil }
 
     // MARK: - Additional User Info Values
+
+    /// This property's default implementation returns an empty dictionary.
     public var additionalUserInfoValues: [String:AnyObject] { return [:] }
 }
 
 extension NSErrorRepresentable where Self: UserInfoRepresentable
 {
+    /// For values that conform to `UserInfoRepresentable`, `userInfo` is automatically provided.
     public var userInfo: [String:AnyObject]?
     {
         var userInfo = [String:AnyObject]()

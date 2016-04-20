@@ -10,12 +10,12 @@
 
 import Foundation
 
-// MARK: - User Info Representable
+// MARK: - User Info Convertible
 
-/// A protocol for types that can be represented as a user info value.
+/// A protocol for types that can be converted to a user info value.
 ///
 /// All properties of this protocol have default implementations, which return empty values.
-public protocol UserInfoRepresentable
+public protocol UserInfoConvertible
 {
     // MARK: - Text Content
 
@@ -56,7 +56,7 @@ public protocol UserInfoRepresentable
     var additionalUserInfoValues: [String:AnyObject] { get }
 }
 
-extension UserInfoRepresentable
+extension UserInfoConvertible
 {
     // MARK: - Text Content
     public var localizedDescription: String? { return nil }
@@ -71,7 +71,7 @@ extension UserInfoRepresentable
     public var additionalUserInfoValues: [String:AnyObject] { return [:] }
 }
 
-extension NSErrorRepresentable where Self: UserInfoRepresentable
+extension NSErrorConvertible where Self: UserInfoConvertible
 {
     public var userInfo: [String:AnyObject]?
     {

@@ -10,10 +10,10 @@
 
 import Foundation
 
-// MARK: - Error Representable
+// MARK: - Error Convertible
 
-/// A protocol for types that can be represented as an `NSError` object.
-public protocol NSErrorRepresentable
+/// A protocol for types that can be converted to an `NSError` object.
+public protocol NSErrorConvertible
 {
     // MARK: - Components
 
@@ -29,12 +29,12 @@ public protocol NSErrorRepresentable
     var userInfo: [String:AnyObject]? { get }
 }
 
-extension NSErrorRepresentable
+extension NSErrorConvertible
 {
     public var userInfo: [String:AnyObject]? { return nil }
 }
 
-extension NSErrorRepresentable
+extension NSErrorConvertible
 {
     // MARK: - Error
 
@@ -45,7 +45,7 @@ extension NSErrorRepresentable
     }
 }
 
-extension NSErrorRepresentable where Self:RawRepresentable, Self.RawValue == Int
+extension NSErrorConvertible where Self:RawRepresentable, Self.RawValue == Int
 {
     // MARK: - Raw Representable
 

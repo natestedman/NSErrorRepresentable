@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		431D7F981CAC92D000766516 /* NSErrorRepresentable.h in Headers */ = {isa = PBXBuildFile; fileRef = 431D7F971CAC92D000766516 /* NSErrorRepresentable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		431D7FAC1CAC93A600766516 /* NSErrorRepresentable.h in Headers */ = {isa = PBXBuildFile; fileRef = 431D7F971CAC92D000766516 /* NSErrorRepresentable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		431D7FB01CACB05D00766516 /* NSErrorRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D7FAF1CACB05D00766516 /* NSErrorRepresentable.swift */; };
-		431D7FB31CACB1BF00766516 /* NSErrorRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D7FAF1CACB05D00766516 /* NSErrorRepresentable.swift */; };
-		431D7FB71CACB22900766516 /* UserInfoRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D7FB61CACB22900766516 /* UserInfoRepresentable.swift */; };
-		431D7FB81CACB24F00766516 /* UserInfoRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D7FB61CACB22900766516 /* UserInfoRepresentable.swift */; };
+		431D7FB01CACB05D00766516 /* NSErrorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D7FAF1CACB05D00766516 /* NSErrorConvertible.swift */; };
+		431D7FB31CACB1BF00766516 /* NSErrorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D7FAF1CACB05D00766516 /* NSErrorConvertible.swift */; };
+		431D7FB71CACB22900766516 /* UserInfoConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D7FB61CACB22900766516 /* UserInfoConvertible.swift */; };
+		431D7FB81CACB24F00766516 /* UserInfoConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D7FB61CACB22900766516 /* UserInfoConvertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +20,8 @@
 		431D7F971CAC92D000766516 /* NSErrorRepresentable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSErrorRepresentable.h; sourceTree = "<group>"; };
 		431D7F991CAC92D000766516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		431D7FA41CAC937E00766516 /* NSErrorRepresentable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSErrorRepresentable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		431D7FAF1CACB05D00766516 /* NSErrorRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorRepresentable.swift; sourceTree = "<group>"; };
-		431D7FB61CACB22900766516 /* UserInfoRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoRepresentable.swift; sourceTree = "<group>"; };
+		431D7FAF1CACB05D00766516 /* NSErrorConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorConvertible.swift; sourceTree = "<group>"; };
+		431D7FB61CACB22900766516 /* UserInfoConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoConvertible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				431D7F971CAC92D000766516 /* NSErrorRepresentable.h */,
-				431D7FAF1CACB05D00766516 /* NSErrorRepresentable.swift */,
-				431D7FB61CACB22900766516 /* UserInfoRepresentable.swift */,
+				431D7FAF1CACB05D00766516 /* NSErrorConvertible.swift */,
+				431D7FB61CACB22900766516 /* UserInfoConvertible.swift */,
 				431D7F991CAC92D000766516 /* Info.plist */,
 			);
 			path = NSErrorRepresentable;
@@ -185,8 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431D7FB71CACB22900766516 /* UserInfoRepresentable.swift in Sources */,
-				431D7FB01CACB05D00766516 /* NSErrorRepresentable.swift in Sources */,
+				431D7FB71CACB22900766516 /* UserInfoConvertible.swift in Sources */,
+				431D7FB01CACB05D00766516 /* NSErrorConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,8 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431D7FB31CACB1BF00766516 /* NSErrorRepresentable.swift in Sources */,
-				431D7FB81CACB24F00766516 /* UserInfoRepresentable.swift in Sources */,
+				431D7FB31CACB1BF00766516 /* NSErrorConvertible.swift in Sources */,
+				431D7FB81CACB24F00766516 /* UserInfoConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

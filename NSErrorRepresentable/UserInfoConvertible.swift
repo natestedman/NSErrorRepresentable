@@ -71,7 +71,7 @@ extension UserInfoConvertible
     public var additionalUserInfoValues: [String:AnyObject] { return [:] }
 }
 
-extension NSErrorConvertible where Self: UserInfoConvertible
+extension UserInfoConvertible
 {
     public var userInfo: [String:AnyObject]?
     {

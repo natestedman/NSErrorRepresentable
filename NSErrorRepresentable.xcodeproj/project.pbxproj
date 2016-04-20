@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4307A0AF1CC70EFC0011D5DE /* NSErrorRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307A0AE1CC70EFC0011D5DE /* NSErrorRepresentable.swift */; };
 		4307A0B01CC70EFC0011D5DE /* NSErrorRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307A0AE1CC70EFC0011D5DE /* NSErrorRepresentable.swift */; };
+		4307A0B21CC70F650011D5DE /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307A0B11CC70F650011D5DE /* Functions.swift */; };
+		4307A0B31CC70F650011D5DE /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307A0B11CC70F650011D5DE /* Functions.swift */; };
 		431D7F981CAC92D000766516 /* NSErrorRepresentable.h in Headers */ = {isa = PBXBuildFile; fileRef = 431D7F971CAC92D000766516 /* NSErrorRepresentable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		431D7FAC1CAC93A600766516 /* NSErrorRepresentable.h in Headers */ = {isa = PBXBuildFile; fileRef = 431D7F971CAC92D000766516 /* NSErrorRepresentable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		431D7FB01CACB05D00766516 /* NSErrorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D7FAF1CACB05D00766516 /* NSErrorConvertible.swift */; };
@@ -19,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		4307A0AE1CC70EFC0011D5DE /* NSErrorRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorRepresentable.swift; sourceTree = "<group>"; };
+		4307A0B11CC70F650011D5DE /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		431D7F941CAC92D000766516 /* NSErrorRepresentable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSErrorRepresentable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		431D7F971CAC92D000766516 /* NSErrorRepresentable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSErrorRepresentable.h; sourceTree = "<group>"; };
 		431D7F991CAC92D000766516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 				4307A0AE1CC70EFC0011D5DE /* NSErrorRepresentable.swift */,
 				431D7FAF1CACB05D00766516 /* NSErrorConvertible.swift */,
 				431D7FB61CACB22900766516 /* UserInfoConvertible.swift */,
+				4307A0B11CC70F650011D5DE /* Functions.swift */,
 				431D7F991CAC92D000766516 /* Info.plist */,
 			);
 			path = NSErrorRepresentable;
@@ -192,6 +196,7 @@
 				431D7FB71CACB22900766516 /* UserInfoConvertible.swift in Sources */,
 				4307A0AF1CC70EFC0011D5DE /* NSErrorRepresentable.swift in Sources */,
 				431D7FB01CACB05D00766516 /* NSErrorConvertible.swift in Sources */,
+				4307A0B21CC70F650011D5DE /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +207,7 @@
 				431D7FB31CACB1BF00766516 /* NSErrorConvertible.swift in Sources */,
 				4307A0B01CC70EFC0011D5DE /* NSErrorRepresentable.swift in Sources */,
 				431D7FB81CACB24F00766516 /* UserInfoConvertible.swift in Sources */,
+				4307A0B31CC70F650011D5DE /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
